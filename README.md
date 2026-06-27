@@ -11,7 +11,7 @@ This project is a fork of the work of Jays2Kings, Ryochan7 and schmaldeo. It add
 [debouncing](https://www.ganssle.com/debouncing.pdf), a tool that helps to fix stick drift and pitch and roll simulation
 for DS3 based on accelerometer value (which is a work of [sunnyqeen](https://github.com/sunnyqeen)).
 
-![DS4Windows Preview](https://raw.githubusercontent.com/GeantW0rld/DS4Windows/main/images/demo1.png)
+![DS4Windows Preview](https://raw.githubusercontent.com/GeantW0rld/DS4Windows/refs/heads/master/images/demo1.png)
 
 ## About this fork
 
