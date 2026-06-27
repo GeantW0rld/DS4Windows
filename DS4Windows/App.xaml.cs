@@ -42,6 +42,28 @@ namespace DS4WinWPF
     [System.Security.SuppressUnmanagedCodeSecurity]
     public partial class App : Application
     {
+        public App()
+        {
+            AppDomain.CurrentDomain.AssemblyResolve += (sender, args) =>
+            {
+                var assemblyName = new System.Reflection.AssemblyName(args.Name);
+
+                if (assemblyName.Name.EndsWith(".resources"))
+                {
+                    string culture = assemblyName.CultureName;
+                    if (string.IsNullOrEmpty(culture)) return null;
+
+                    string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "lang", culture, assemblyName.Name + ".dll");
+
+                    if (File.Exists(path))
+                    {
+                        return System.Reflection.Assembly.LoadFrom(path);
+                    }
+                }
+                return null;
+            };
+        }
+
         [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
         private static extern int GetClassName(IntPtr hWnd, StringBuilder lpClassName, int nMaxCount);
 

@@ -404,4 +404,15 @@
 	<ItemGroup>
 		<Folder Remove="extras\" />
 	</ItemGroup>
+
+	<Target Name="MoveLanguageFiles" AfterTargets="Build">
+		<ItemGroup>
+			<LanguageFiles Include="$(OutDir)*\*.resources.dll" />
+		</ItemGroup>
+
+		<Move SourceFiles="@(LanguageFiles)"
+			  DestinationFiles="@(LanguageFiles->'$(OutDir)lang\%(RecursiveDir)%(Filename)%(Extension)')" />
+
+		<RemoveDir Directories="@(LanguageFiles->'$(OutDir)%(RecursiveDir)')" />
+	</Target>
 </Project>
