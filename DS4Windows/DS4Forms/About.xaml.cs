@@ -42,7 +42,7 @@ namespace DS4WinWPF.DS4Forms
 
         private void SourceLink_Click(object sender, RoutedEventArgs e)
         {
-            Util.StartProcessHelper("https://github.com/schmaldeo/DS4Windows");
+            Util.StartProcessHelper("https://github.com/GeantW0rld/DS4Windows");
         }
 
         private void Ryochan7Link_Click(object sender, RoutedEventArgs e)
@@ -102,7 +102,7 @@ namespace DS4WinWPF.DS4Forms
 
         private void ContributorsLink_OnClick(object sender, RoutedEventArgs e)
         {
-            Util.StartProcessHelper("https://github.com/schmaldeo/DS4Windows/blob/master/contributors.txt");
+            Util.StartProcessHelper("https://github.com/GeantW0rld/DS4Windows/blob/master/contributors.txt");
         }
     }
 }

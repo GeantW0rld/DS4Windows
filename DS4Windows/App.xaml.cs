@@ -26,6 +26,7 @@ using System.IO.MemoryMappedFiles;
 using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
@@ -85,7 +86,7 @@ namespace DS4WinWPF
         public event EventHandler ThemeChanged;
 
         private void Application_Startup(object sender, StartupEventArgs e)
-        {
+        {           
             runShutdown = true;
             skipSave = true;
 
