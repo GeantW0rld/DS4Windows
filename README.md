@@ -1,26 +1,3 @@
-# DISCONTINUATION
-
-**I'm sad to announce that I will be discontinuing any further work on this project.**
-
-I initially wanted to take a short break and come back to the project, 
-however with 1) lack of time for development due to both work and personal life and 2) the development of machine learning technologies I'm just not willing
-to put any more work into it. Especially the 2nd point made me completely lose interest in it. 
-
-Open source software, something I once valued way more than
-proprietary software, has now become a clown show due to so-called _vibe coders_. People's contributions to OSS were once a great learning experience, GitHub 
-used to be a place where you could exchange knowledge and build a nice resume as well as find many fantastic hobby projects you could make use of. 
-I've learnt that myself. Now, seeing many OSS projects receive many completely trash and meaningless pull requests and GitHub being flooded with very 
-low quality or straight up vulnerable on all fronts code, I lost my faith in it. 
-
-My goal with this project was producing good (for obvious reasons not perfect, but still goot) quality code and delivering what people wanted. 
-**To learn and become a better software engineer.** All the motivation I had to do that is completely gone now.
-
-Thank you for all the contributors, people who helped me develop it and people who reported bugs and feature requests.
-
-It was a good ride.
-
-Maybe one day we will come back to the way the things were before.
-
 ## DS4Windows
 
 Like those other DS4 tools, but sexier.
