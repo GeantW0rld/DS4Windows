@@ -37,8 +37,6 @@ available in this source code from the COPYING file.
 
 You can install DS4Windows by downloading it from [releases](https://github.com/GeantW0rld/DS4Windows/releases) and place it to your preferred place.
 
-Alternatively, you can install [`ds4windows`](https://scoop.sh/#/apps?q=ds4windows&o=true&id=c8b519fcb06da6bb014569fd0a07521839ec5425) via [Scoop](https://scoop.sh/).
-
 Alternatively, you can download [`ds4w.bat`](https://raw.githubusercontent.com/GeantW0rld/DS4Windows/refs/heads/master/ds4w.bat) file and execute it. It will open a window that downloads and places the program in `%LOCALAPPDATA%\DS4Windows` and creates a desktop shortcut to the executable.
 
 ## Requirements
@@ -50,7 +48,7 @@ Alternatively, you can download [`ds4w.bat`](https://raw.githubusercontent.com/G
 - **Sony** DualShock 4 or other supported controller
 - Connection method:
   - Micro USB cable
-  - [Sony Wireless Adapter](https://www.amazon.com/gp/product/B01KYVLKG2)
+  - Sony Wireless Adapter
   - Bluetooth 4.0 (via an
   [adapter like this](https://www.newegg.com/Product/Product.aspx?Item=N82E16833166126)
   or built in pc). Only use of Microsoft BT stack is supported. CSR BT stack is
