@@ -48,7 +48,7 @@ namespace DS4WinWPF.DS4Forms.ViewModels
         private string DownloadUpstreamUpdaterVersion()
         {
             // Sorry other devs, gonna have to find your own server
-            Uri url = new Uri("https://api.github.com/repos/schmaldeo/DS4Updater/releases/latest");
+            Uri url = new Uri("https://api.github.com/repos/GeantW0rld/DS4Updater/releases/latest");
 
             Task<System.Net.Http.HttpResponseMessage> requestTask = App.requestClient.GetAsync(url.ToString());
             requestTask.Wait();

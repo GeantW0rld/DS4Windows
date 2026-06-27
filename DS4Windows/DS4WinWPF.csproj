@@ -24,9 +24,9 @@
 		<Description>Sony DualShock 4 to Microsoft Xinput controller mapper</Description>
 		<Authors>schmaldeo</Authors>
 		<Company>schmaldeo</Company>
-		<PackageProjectUrl>https://schmaldeo.github.io/DS4WindowsDocs</PackageProjectUrl>
+		<PackageProjectUrl>https://geantw0rld.github.io/DS4WindowsDocs</PackageProjectUrl>
 		<PackageLicenseUrl>https://www.gnu.org/licenses/gpl-3.0.txt</PackageLicenseUrl>
-		<RepositoryUrl>https://github.com/schmaldeo/DS4Windows</RepositoryUrl>
+		<RepositoryUrl>https://github.com/GeantW0rld/DS4Windows</RepositoryUrl>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
